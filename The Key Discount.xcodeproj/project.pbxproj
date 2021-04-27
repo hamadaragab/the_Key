@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184EEF1026383EDD00C7BAE5 /* tabBarRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EEF0F26383EDD00C7BAE5 /* tabBarRouter.swift */; };
+		184EEF1326383F4B00C7BAE5 /* tabBarProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EEF1226383F4B00C7BAE5 /* tabBarProtocols.swift */; };
+		184EEF1626383F5500C7BAE5 /* tabBarPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EEF1526383F5500C7BAE5 /* tabBarPresenter.swift */; };
+		184EEF19263847A400C7BAE5 /* uiviewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184EEF18263847A400C7BAE5 /* uiviewExtension.swift */; };
 		18EDDE272636F06200826E46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDE262636F06200826E46 /* AppDelegate.swift */; };
 		18EDDE292636F06200826E46 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDE282636F06200826E46 /* SceneDelegate.swift */; };
 		18EDDE302636F06600826E46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDDE2F2636F06600826E46 /* Assets.xcassets */; };
@@ -58,6 +62,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184EEF0F26383EDD00C7BAE5 /* tabBarRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarRouter.swift; sourceTree = "<group>"; };
+		184EEF1226383F4B00C7BAE5 /* tabBarProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarProtocols.swift; sourceTree = "<group>"; };
+		184EEF1526383F5500C7BAE5 /* tabBarPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tabBarPresenter.swift; sourceTree = "<group>"; };
+		184EEF18263847A400C7BAE5 /* uiviewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uiviewExtension.swift; sourceTree = "<group>"; };
 		18EDDE232636F06200826E46 /* The Key Discount.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Key Discount.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		18EDDE262636F06200826E46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18EDDE282636F06200826E46 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +133,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		184EEF0A26383E8F00C7BAE5 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				184EEF0F26383EDD00C7BAE5 /* tabBarRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		184EEF0B26383E9B00C7BAE5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		184EEF0C26383EA400C7BAE5 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		184EEF0D26383EAC00C7BAE5 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				184EEF1226383F4B00C7BAE5 /* tabBarProtocols.swift */,
+				184EEF1526383F5500C7BAE5 /* tabBarPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
 		18EDDE1A2636F06200826E46 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +223,7 @@
 				18EDDEC026380BEA00826E46 /* ButtonExtension.swift */,
 				18EDDEC426380C3800826E46 /* UiImageExtension.swift */,
 				18EDDECA26380D6B00826E46 /* ColorExtension.swift */,
+				184EEF18263847A400C7BAE5 /* uiviewExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -472,6 +512,10 @@
 			isa = PBXGroup;
 			children = (
 				18EDDEF9263828CE00826E46 /* View */,
+				184EEF0D26383EAC00C7BAE5 /* Presenter */,
+				184EEF0C26383EA400C7BAE5 /* Interactor */,
+				184EEF0B26383E9B00C7BAE5 /* Model */,
+				184EEF0A26383E8F00C7BAE5 /* Router */,
 			);
 			path = HomeTabBar;
 			sourceTree = "<group>";
@@ -639,8 +683,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				184EEF19263847A400C7BAE5 /* uiviewExtension.swift in Sources */,
 				18EDDEC126380BEA00826E46 /* ButtonExtension.swift in Sources */,
 				18EDDF032638291900826E46 /* HomeTabExtension.swift in Sources */,
+				184EEF1626383F5500C7BAE5 /* tabBarPresenter.swift in Sources */,
 				18EDDE5C2636F48200826E46 /* LoginEndpoint.swift in Sources */,
 				18EDDEE0263827FD00826E46 /* HomeViewController.swift in Sources */,
 				18EDDE562636F46400826E46 /* LoginPresenter.swift in Sources */,
@@ -649,6 +695,7 @@
 				18EDDEF22638285500826E46 /* HomeRouter.swift in Sources */,
 				18EDDE592636F47000826E46 /* LoginModel.swift in Sources */,
 				18EDDE502636F43F00826E46 /* LoginViewController.swift in Sources */,
+				184EEF1026383EDD00C7BAE5 /* tabBarRouter.swift in Sources */,
 				18EDDF00263828FE00826E46 /* HomeTabBarViewController.swift in Sources */,
 				18EDDE532636F45100826E46 /* LoginProtocols.swift in Sources */,
 				18EDDE7D2636F70D00826E46 /* alertWithOneButton.swift in Sources */,
@@ -665,6 +712,7 @@
 				18EDDE292636F06200826E46 /* SceneDelegate.swift in Sources */,
 				18EDDEE32638280C00826E46 /* HomeViewExtension.swift in Sources */,
 				18EDDEA82636FBA100826E46 /* SplashScreenModel.swift in Sources */,
+				184EEF1326383F4B00C7BAE5 /* tabBarProtocols.swift in Sources */,
 				18EDDEEF2638284A00826E46 /* HomeEndpoint.swift in Sources */,
 				18EDDE982636FB5E00826E46 /* SplashScreenProtocols.swift in Sources */,
 				18EDDEE62638282200826E46 /* HomeProtocol.swift in Sources */,

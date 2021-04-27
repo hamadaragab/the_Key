@@ -9,12 +9,16 @@ import UIKit
 
 class HomeTabBarViewController: UIViewController {
 
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         print("hamada")
-
-        // Do any additional setup after loading the view.
+        
+        
     }
     
-
+    @IBAction func HomeBTN(_ sender: Any) {
+        print("Home tapped")
+    }
+    
 }

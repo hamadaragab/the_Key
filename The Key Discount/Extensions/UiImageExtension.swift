@@ -30,3 +30,25 @@ extension UIImageView {
         }
        }
 }
+
+class TappedImageView: UIImageView {
+
+  weak var delegate:TappedImageViewDelegate?
+     
+     override func awakeFromNib() {
+         super.awakeFromNib()
+         self.isUserInteractionEnabled = true
+               let tap = UITapGestureRecognizer(target: self, action: #selector(self.tapAction))
+
+               self.addGestureRecognizer(tap)
+     }
+     
+     
+     @objc private func tapAction(){
+        delegate?.ImageViewDidTap(self)
+     }
+
+}
+protocol TappedImageViewDelegate:NSObject {
+    func ImageViewDidTap(_ stackView:TappedImageView)
+}

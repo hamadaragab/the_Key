@@ -11,7 +11,6 @@ class HomeTabBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("hamada")
 
         // Do any additional setup after loading the view.
     }

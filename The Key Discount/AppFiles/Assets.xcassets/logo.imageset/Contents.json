@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Screen Shot 2021-04-27 at 12.46.53 PM.png",
+      "filename" : "Screen Shot 2021-04-27 at 12-1.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Screen Shot 2021-04-27 at 12.46.53 PM@2x.png",
+      "filename" : "Screen Shot @2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Screen Shot 2021-04-27 at 12.46.53 PM@3x.png",
+      "filename" : "Screen Shot @3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

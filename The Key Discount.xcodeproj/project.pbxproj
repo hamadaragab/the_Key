@@ -472,40 +472,8 @@
 			isa = PBXGroup;
 			children = (
 				18EDDEF9263828CE00826E46 /* View */,
-				18EDDEF8263828C600826E46 /* Presenter */,
-				18EDDEF7263828C100826E46 /* Model */,
-				18EDDEF6263828B900826E46 /* Interactor */,
-				18EDDEF5263828B200826E46 /* Router */,
 			);
 			path = HomeTabBar;
-			sourceTree = "<group>";
-		};
-		18EDDEF5263828B200826E46 /* Router */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Router;
-			sourceTree = "<group>";
-		};
-		18EDDEF6263828B900826E46 /* Interactor */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Interactor;
-			sourceTree = "<group>";
-		};
-		18EDDEF7263828C100826E46 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		18EDDEF8263828C600826E46 /* Presenter */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Presenter;
 			sourceTree = "<group>";
 		};
 		18EDDEF9263828CE00826E46 /* View */ = {

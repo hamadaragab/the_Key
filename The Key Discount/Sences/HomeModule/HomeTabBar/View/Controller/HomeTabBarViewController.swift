@@ -11,7 +11,7 @@ class HomeTabBarViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("relaesed")
+        print("relaesed33333")
 
         // Do any additional setup after loading the view.
     }

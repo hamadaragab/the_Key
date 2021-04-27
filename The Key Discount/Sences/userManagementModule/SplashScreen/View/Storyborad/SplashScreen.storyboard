@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Splash Screen View Controller-->
+        <scene sceneID="Wdk-L8-WvX">
+            <objects>
+                <viewController storyboardIdentifier="SplashScreen" id="beC-kL-q8e" customClass="SplashScreenViewController" customModule="The_Key_Discount" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="60e-eU-822">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="splashmage" translatesAutoresizingMaskIntoConstraints="NO" id="wd6-XZ-yrZ">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" name="mainColor"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="gDQ-GM-BV4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="gDQ-GM-BV4" firstAttribute="bottom" secondItem="wd6-XZ-yrZ" secondAttribute="bottom" id="J4f-Tr-MAY"/>
+                            <constraint firstItem="wd6-XZ-yrZ" firstAttribute="leading" secondItem="gDQ-GM-BV4" secondAttribute="leading" id="Tz9-i5-onH"/>
+                            <constraint firstItem="gDQ-GM-BV4" firstAttribute="trailing" secondItem="wd6-XZ-yrZ" secondAttribute="trailing" id="alD-5l-V3O"/>
+                            <constraint firstItem="wd6-XZ-yrZ" firstAttribute="top" secondItem="60e-eU-822" secondAttribute="top" id="bqJ-59-mwu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x1W-kY-5ED" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-294" y="59"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="splashmage" width="544" height="1138"/>
+        <namedColor name="mainColor">
+            <color red="0.92549019607843142" green="0.0039215686274509803" blue="0.0039215686274509803" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

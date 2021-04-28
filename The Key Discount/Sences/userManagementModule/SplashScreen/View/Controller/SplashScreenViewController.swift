@@ -17,12 +17,12 @@ class SplashScreenViewController: UIViewController {
     
     private func loadSplashScreen()
     {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        DispatchQueue.main.asyncAfter(deadline: .now()) {
 //            if let token =  UserDefaults.standard.string(forKey: "USER_TOKEN_KEY"), !token.isEmpty{
 //                UIApplication.shared.windows.first?.rootViewController = UINavigationController(rootViewController:HomeRouter.CreateHomeViewController())
 //            }
 //            else{
-                UIApplication.shared.windows.first? .rootViewController = LoginRouter.CreateLoginViewController()
+            UIApplication.shared.windows.first? .rootViewController = tabBarRouter.CreateLoginViewController()
                                 }
             UIApplication.shared.windows.first?.makeKeyAndVisible()
         }

@@ -12,6 +12,7 @@ protocol  tabBarViewProtocol: baseViewProtocols {
 
 protocol  tabBarPresenterProtocol: basePresenterProtocols {
     var view: tabBarViewProtocol? {get set}
-    
+    func goToSideMenu(isOpen: Bool)
+   
   
 }

@@ -16,4 +16,14 @@ class tabBarRouter {
         view?.presenter = presenter
         return LoginView
     }
+    
+    func gotoSideMenu(from view: tabBarViewProtocol?, isOpen: Bool)
+    {
+        let sideMenuView = sideMenutRouter.CreatesideMenuViewController(isOpen: isOpen)
+        if let HomeView = view as? UIViewController
+        {
+            HomeView.addChild(sideMenuView)
+            HomeView.view.addSubview(sideMenuView.view)
+        }
+    }
 }

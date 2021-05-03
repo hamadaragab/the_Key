@@ -2,12 +2,16 @@ PODS:
   - Alamofire (5.0.5)
   - IQKeyboardManagerSwift (6.5.6)
   - Kingfisher (6.2.1)
+  - MOLH (1.4.3)
+  - SideMenu (6.5.0)
   - Spring (1.0.6)
 
 DEPENDENCIES:
   - Alamofire (~> 5.0.0-rc.3)
   - IQKeyboardManagerSwift
   - Kingfisher
+  - MOLH
+  - SideMenu (~> 6.0)
   - Spring (from `https://github.com/MengTo/Spring.git`)
 
 SPEC REPOS:
@@ -15,6 +19,8 @@ SPEC REPOS:
     - Alamofire
     - IQKeyboardManagerSwift
     - Kingfisher
+    - MOLH
+    - SideMenu
 
 EXTERNAL SOURCES:
   Spring:
@@ -29,8 +35,10 @@ SPEC CHECKSUMS:
   Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
   IQKeyboardManagerSwift: c7df9d2deb356c04522f5c4b7b6e4ce4d8ed94fe
   Kingfisher: e71c6fac2aebb1262888cabc2cb13d313362a48f
+  MOLH: e45827d200aeb1310641090fd8cd03ad2b42ae72
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
   Spring: 3d113f14575ef79aec9c5f906dfa4f5001c03254
 
-PODFILE CHECKSUM: a13a568bc2b6aa4d5a9a0e13408474ef48e38950
+PODFILE CHECKSUM: fc36a9bd622a9181e4c64808e5f115d92f8ea77c
 
 COCOAPODS: 1.10.1

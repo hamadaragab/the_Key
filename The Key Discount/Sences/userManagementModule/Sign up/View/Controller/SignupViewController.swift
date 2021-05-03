@@ -1,15 +1,20 @@
 //
-//  LoginViewController.swift
+//  SignupViewController.swift
 //  The Key Discount
 //
-//  Created by Apple on 4/26/21.
+//  Created by Boo Doo on 4/28/21.
 //
 
 import UIKit
 
-class LoginViewController: UIViewController {
-
+class SignupViewController: UIViewController {
+    
     //Outlets
+    @IBOutlet weak var userNameTextField: TextFieldWithShadow!
+    @IBOutlet weak var userNameErrorMessage: UIStackView!
+    @IBOutlet weak var userNameErrorContentLabel: UILabel!
+    
+    
     @IBOutlet weak var emailTextField: TextFieldWithShadow!
     @IBOutlet weak var emailErrorMessage: UIStackView!
     @IBOutlet weak var emailErrorContentLabel: UILabel!
@@ -20,31 +25,28 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var passwordErrorContentLabel: UILabel!
     
     
+    @IBOutlet weak var confirmPasswordTextField: TextFieldWithShadow!
+    @IBOutlet weak var confirmPasswordErrorMessage: UIStackView!
+    @IBOutlet weak var confirmPassErrorContentLabel: UILabel!
+    
+    
     //View load
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+
     }
-    
     
     //Actions
-    @IBAction func createAccountClicked(_ sender: Any) {
-    }
-    
-    @IBAction func forgetPasswordClicked(_ sender: Any) {
-    }
-    
     @IBAction func signUpClicked(_ sender: Any) {
     }
     
     //or sign in with
     @IBAction func googleClicked(_ sender: Any) {
     }
-    
+   
     @IBAction func facebookClicked(_ sender: Any) {
     }
     
     @IBAction func tweeterClicked(_ sender: Any) {
     }
-
 }

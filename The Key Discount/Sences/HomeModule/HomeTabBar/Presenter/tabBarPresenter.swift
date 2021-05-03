@@ -17,6 +17,9 @@ class  tabBarPresenter: BasePresenter {
     }
 
 extension tabBarPresenter: tabBarPresenterProtocol{
+    func goToSideMenu(isOpen: Bool) {
+        router.gotoSideMenu(from: view,isOpen: isOpen)
+    }
     
     }
      

@@ -6,3 +6,12 @@
 //
 
 import Foundation
+protocol  HomeViewProtocol: baseViewProtocols {
+    var presenter:  HomePresenterProtocol? {get set}
+}
+
+protocol  HomePresenterProtocol: basePresenterProtocols {
+    var view: HomeViewProtocol? {get set}
+    
+  
+}

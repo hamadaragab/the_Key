@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -18,52 +19,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dzm-1b-1vp">
+                                <rect key="frame" x="0.0" y="88" width="414" height="724"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IzX-nC-CXF">
-                                <rect key="frame" x="0.0" y="802" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="812" width="414" height="50"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="gjw-ao-WQT">
-                                        <rect key="frame" x="0.0" y="0.0" width="172" height="60"/>
+                                        <rect key="frame" x="0.0" y="2" width="172" height="48"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Alu-ur-eh4">
-                                                <rect key="frame" x="0.0" y="0.0" width="82" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="82" height="48"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOo-Vq-y1I">
-                                                        <rect key="frame" x="0.0" y="0.0" width="82" height="24"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                                        <state key="normal" image="Restaurants"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gRT-01-40X">
-                                                        <rect key="frame" x="0.0" y="24" width="82" height="36"/>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EOo-Vq-y1I" customClass="AlignableButton" customModule="The_Key_Discount" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="82" height="48"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <state key="normal" image="Restaurants">
+                                                            <color key="titleColor" name="titleColor"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="titleAlignmentValue">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="iconAlignmentValue">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="Restaurants"/>
                                                         </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                        <connections>
+                                                            <action selector="tabsButtonTapped:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="bcH-PA-KlW"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Vl2-yg-dYA">
-                                                <rect key="frame" x="90" y="0.0" width="82" height="60"/>
+                                                <rect key="frame" x="90" y="0.0" width="82" height="48"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4u-iW-C4q">
-                                                        <rect key="frame" x="0.0" y="0.0" width="82" height="24"/>
-                                                        <state key="normal" image="Hotels &amp; Flight"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zf6-7i-Xz7">
-                                                        <rect key="frame" x="0.0" y="24" width="82" height="36"/>
+                                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N4u-iW-C4q" customClass="AlignableButton" customModule="The_Key_Discount" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="82" height="48"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <state key="normal" image="Hotels &amp; Flight">
+                                                            <color key="titleColor" name="titleColor"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="iconAlignmentValue">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="titleAlignmentValue">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="Hotels &amp; Flight"/>
                                                         </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                        <connections>
+                                                            <action selector="tabsButtonTapped:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="TBv-hb-eYE"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
                                     </stackView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xU-qJ-Pcj">
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8xU-qJ-Pcj">
                                         <rect key="frame" x="172" y="-30" width="70" height="70"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -72,46 +88,58 @@
                                         </constraints>
                                         <state key="normal" image="home"/>
                                         <connections>
-                                            <action selector="HomeBTN:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="SOB-7i-swO"/>
+                                            <action selector="tabsButtonTapped:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="uln-Sl-UWH"/>
                                         </connections>
                                     </button>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="QX7-79-SgB">
-                                        <rect key="frame" x="242" y="0.0" width="172" height="60"/>
+                                        <rect key="frame" x="242" y="2" width="172" height="48"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="CNX-0V-liu">
-                                                <rect key="frame" x="0.0" y="0.0" width="86" height="60"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xc-vi-uEq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="24"/>
-                                                        <state key="normal" image="Market"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aKD-KX-Kiy">
-                                                        <rect key="frame" x="0.0" y="24" width="86" height="36"/>
+                                                    <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Xc-vi-uEq" customClass="AlignableButton" customModule="The_Key_Discount" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <state key="normal" image="Market">
+                                                            <color key="titleColor" name="titleColor"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="iconAlignmentValue">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="titleAlignmentValue">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="Market"/>
                                                         </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                        <connections>
+                                                            <action selector="tabsButtonTapped:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="hSu-1D-oPl"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Wwf-gi-mF3">
-                                                <rect key="frame" x="86" y="0.0" width="86" height="60"/>
+                                                <rect key="frame" x="86" y="0.0" width="86" height="48"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LT0-m3-ohq">
-                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="24"/>
-                                                        <state key="normal" image="Booking"/>
-                                                    </button>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jeo-0i-VNC">
-                                                        <rect key="frame" x="0.0" y="24" width="86" height="36"/>
+                                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LT0-m3-ohq" customClass="AlignableButton" customModule="The_Key_Discount" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="86" height="48"/>
                                                         <fontDescription key="fontDescription" type="boldSystem" pointSize="10"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
+                                                        <state key="normal" image="Booking">
+                                                            <color key="titleColor" name="titleColor"/>
+                                                        </state>
                                                         <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="iconAlignmentValue">
+                                                                <integer key="value" value="0"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="titleAlignmentValue">
+                                                                <integer key="value" value="1"/>
+                                                            </userDefinedRuntimeAttribute>
                                                             <userDefinedRuntimeAttribute type="string" keyPath="localizationKey" value="Booking"/>
                                                         </userDefinedRuntimeAttributes>
-                                                    </label>
+                                                        <connections>
+                                                            <action selector="tabsButtonTapped:" destination="xJP-mG-Vtk" eventType="touchUpInside" id="ONh-5Q-VQB"/>
+                                                        </connections>
+                                                    </button>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
@@ -127,35 +155,98 @@
                                     <constraint firstItem="QX7-79-SgB" firstAttribute="leading" secondItem="8xU-qJ-Pcj" secondAttribute="trailing" id="FBQ-Dr-zcY"/>
                                     <constraint firstItem="QX7-79-SgB" firstAttribute="width" secondItem="gjw-ao-WQT" secondAttribute="width" id="SVi-hp-Xfw"/>
                                     <constraint firstAttribute="trailing" secondItem="QX7-79-SgB" secondAttribute="trailing" id="bNW-1J-w48"/>
-                                    <constraint firstItem="QX7-79-SgB" firstAttribute="top" secondItem="IzX-nC-CXF" secondAttribute="top" id="eNr-hh-MqN"/>
-                                    <constraint firstAttribute="height" constant="60" id="hVv-rG-hcJ"/>
-                                    <constraint firstItem="gjw-ao-WQT" firstAttribute="top" secondItem="IzX-nC-CXF" secondAttribute="top" id="oHt-9W-Kzd"/>
+                                    <constraint firstItem="QX7-79-SgB" firstAttribute="top" secondItem="IzX-nC-CXF" secondAttribute="top" constant="2" id="eNr-hh-MqN"/>
+                                    <constraint firstAttribute="height" constant="50" id="hVv-rG-hcJ"/>
+                                    <constraint firstItem="gjw-ao-WQT" firstAttribute="top" secondItem="IzX-nC-CXF" secondAttribute="top" constant="2" id="oHt-9W-Kzd"/>
                                 </constraints>
                             </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="BpX-Hh-7EI"/>
-                        <color key="backgroundColor" systemColor="linkColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="BpX-Hh-7EI" firstAttribute="trailing" secondItem="dzm-1b-1vp" secondAttribute="trailing" id="Bmf-Sm-0xp"/>
+                            <constraint firstItem="dzm-1b-1vp" firstAttribute="top" secondItem="BpX-Hh-7EI" secondAttribute="top" id="Rob-8W-b8x"/>
                             <constraint firstItem="BpX-Hh-7EI" firstAttribute="bottom" secondItem="IzX-nC-CXF" secondAttribute="bottom" id="SlN-CW-tmK"/>
+                            <constraint firstItem="IzX-nC-CXF" firstAttribute="top" secondItem="dzm-1b-1vp" secondAttribute="bottom" id="Xc2-oF-XJD"/>
+                            <constraint firstItem="dzm-1b-1vp" firstAttribute="leading" secondItem="BpX-Hh-7EI" secondAttribute="leading" id="kyV-hG-uvp"/>
                             <constraint firstItem="BpX-Hh-7EI" firstAttribute="trailing" secondItem="IzX-nC-CXF" secondAttribute="trailing" id="rSQ-Iu-MP6"/>
                             <constraint firstItem="IzX-nC-CXF" firstAttribute="leading" secondItem="BpX-Hh-7EI" secondAttribute="leading" id="vRM-4Y-EVG"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Cop-3i-PSW">
+                        <barButtonItem key="leftBarButtonItem" image="sideMenu" id="rfo-J6-3bp">
+                            <color key="tintColor" name="SideMenuColor"/>
+                            <connections>
+                                <action selector="sideMenuTapped:" destination="xJP-mG-Vtk" id="P8C-Gg-vIT"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Item" image="search" id="UGV-Pf-Gg3">
+                            <color key="tintColor" name="SideMenuColor"/>
+                            <connections>
+                                <action selector="searchTapped:" destination="xJP-mG-Vtk" id="0ml-Pw-KNi"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="bookingBTN" destination="LT0-m3-ohq" id="hiX-il-Wsz"/>
+                        <outlet property="containerView" destination="dzm-1b-1vp" id="6fc-f8-fZg"/>
+                        <outlet property="homeBTN" destination="8xU-qJ-Pcj" id="jId-cz-uUP"/>
+                        <outlet property="hotelsBTN" destination="N4u-iW-C4q" id="ayu-rY-hhd"/>
+                        <outlet property="market" destination="0Xc-vi-uEq" id="6fb-6g-Rra"/>
+                        <outlet property="resturantBTN" destination="EOo-Vq-y1I" id="bxg-0K-Ae1"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="djc-rQ-uQu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="634.78260869565224" y="63.616071428571423"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="1Re-k2-6xc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5HJ-XH-qsb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hQo-lJ-9CD">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="xJP-mG-Vtk" kind="relationship" relationship="rootViewController" id="GzE-yC-BTY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jp4-EK-lWt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-275.36231884057975" y="63.616071428571423"/>
         </scene>
     </scenes>
+    <designables>
+        <designable name="0Xc-vi-uEq">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+        <designable name="EOo-Vq-y1I">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+        <designable name="LT0-m3-ohq">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+        <designable name="N4u-iW-C4q">
+            <size key="intrinsicContentSize" width="24" height="24"/>
+        </designable>
+    </designables>
     <resources>
         <image name="Booking" width="24" height="24"/>
         <image name="Hotels &amp; Flight" width="24" height="24"/>
         <image name="Market" width="24" height="24"/>
         <image name="Restaurants" width="24" height="24"/>
         <image name="home" width="88" height="88"/>
-        <systemColor name="linkColor">
-            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
+        <image name="search" width="24" height="24"/>
+        <image name="sideMenu" width="24" height="24"/>
+        <namedColor name="SideMenuColor">
+            <color red="0.25900000333786011" green="0.25900000333786011" blue="0.25900000333786011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="titleColor">
+            <color red="0.3919999897480011" green="0.3919999897480011" blue="0.3919999897480011" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

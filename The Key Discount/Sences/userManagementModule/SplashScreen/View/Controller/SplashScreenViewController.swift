@@ -22,7 +22,7 @@ class SplashScreenViewController: UIViewController {
 //                UIApplication.shared.windows.first?.rootViewController = UINavigationController(rootViewController:HomeRouter.CreateHomeViewController())
 //            }
 //            else{
-            UIApplication.shared.windows.first? .rootViewController = tabBarRouter.CreateLoginViewController()
+            UIApplication.shared.windows.first? .rootViewController = UINavigationController(rootViewController: tabBarRouter.CreateLoginViewController())
                                 }
             UIApplication.shared.windows.first?.makeKeyAndVisible()
         }

@@ -7,9 +7,10 @@ target 'The Key Discount' do
 
   # Pods for The Key Discount
   pod 'Kingfisher'
- pod 'IQKeyboardManagerSwift'
- pod 'Alamofire', '~> 5.0.0-rc.3'
+  pod 'IQKeyboardManagerSwift'
+  pod 'Alamofire', '~> 5.0.0-rc.3'
   pod 'Spring', :git => 'https://github.com/MengTo/Spring.git'
-
+  pod 'SideMenu', '~> 6.0'
+  pod 'MOLH'
 
 end

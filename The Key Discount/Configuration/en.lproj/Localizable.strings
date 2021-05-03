@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  The Key Discount
+
+  Created by Boo Doo on 4/28/21.
+  
+*/
+//Sign in Screen
+"signInTitle" = "Sign in to your Account";
+"email" = "Email";
+"password" = "Password";
+"createAccount" = "Create new account";
+"forgetPassword" = "Forget Password";
+"signInButton" = "Sign in";
+"orSignInWith" = "Or sign in with";
+
+//Sing up screen
+"signUpTitle" = "Create your Account";
+"userName" = "User Name";
+"confirm" = "Confirm Password";
+"signUpButton" = "Sign up";
+"orSignUpWith" = "Or sign up with";
+
+//Forget Password screen
+"enterCode" = "Enter Code";
+"enter" = "Enter";
+"resendCode" = "Resend Code";

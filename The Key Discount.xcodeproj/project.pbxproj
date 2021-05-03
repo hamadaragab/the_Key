@@ -59,6 +59,26 @@
 		18EDDF00263828FE00826E46 /* HomeTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDEFF263828FE00826E46 /* HomeTabBarViewController.swift */; };
 		18EDDF032638291900826E46 /* HomeTabExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EDDF022638291900826E46 /* HomeTabExtension.swift */; };
 		4F2BF1AE10AABEF61F01F086 /* Pods_The_Key_Discount.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23845811EDB46EE02E3043D /* Pods_The_Key_Discount.framework */; };
+		8516F449263EBCD4002DAF3E /* SignupScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F448263EBCD4002DAF3E /* SignupScreenRouter.swift */; };
+		8516F44D263EBD6A002DAF3E /* SignupProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F44C263EBD6A002DAF3E /* SignupProtocols.swift */; };
+		8516F450263EBD85002DAF3E /* SignupPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F44F263EBD85002DAF3E /* SignupPresenter.swift */; };
+		8516F46E263ED91E002DAF3E /* SignUpScreenEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F46D263ED91E002DAF3E /* SignUpScreenEndpoint.swift */; };
+		8516F472263ED940002DAF3E /* SignUpScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F471263ED940002DAF3E /* SignUpScreenInteractor.swift */; };
+		8516F476263ED98B002DAF3E /* SignupModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F475263ED98B002DAF3E /* SignupModel.swift */; };
+		8516F486263EE466002DAF3E /* ForgetPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8516F485263EE466002DAF3E /* ForgetPasswordViewController.storyboard */; };
+		8516F489263EE4D2002DAF3E /* ForgetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F488263EE4D2002DAF3E /* ForgetPasswordViewController.swift */; };
+		8516F48C263EE50A002DAF3E /* ForgetPasswordViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8516F48B263EE50A002DAF3E /* ForgetPasswordViewExtension.swift */; };
+		8545785D26398B6900094BB4 /* SignupViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8545785C26398B6900094BB4 /* SignupViewController.storyboard */; };
+		85457861263991FB00094BB4 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85457860263991FB00094BB4 /* SignupViewController.swift */; };
+		854578652639922D00094BB4 /* SignupViewConrollerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854578642639922D00094BB4 /* SignupViewConrollerExtension.swift */; };
+		8545786A2639938700094BB4 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8545786C2639938700094BB4 /* Localizable.strings */; };
+		854DF877263FF8A400712948 /* ForgetPasswordProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF876263FF8A400712948 /* ForgetPasswordProtocols.swift */; };
+		854DF87A263FF8C400712948 /* ForgetPasswordPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF879263FF8C400712948 /* ForgetPasswordPresenter.swift */; };
+		854DF87E263FF9A600712948 /* ForgetPasswordScreenRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF87D263FF9A600712948 /* ForgetPasswordScreenRouter.swift */; };
+		854DF887263FFA5800712948 /* ForgetPasswordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF886263FFA5800712948 /* ForgetPasswordModel.swift */; };
+		854DF88A263FFA9700712948 /* ForgetPasswordScreenEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF889263FFA9700712948 /* ForgetPasswordScreenEndpoint.swift */; };
+		854DF88D263FFABA00712948 /* ForgetPasswordScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 854DF88C263FFABA00712948 /* ForgetPasswordScreenInteractor.swift */; };
+		85DE82C626400E5000BAB2E3 /* ConfirmPasswordViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85DE82C526400E5000BAB2E3 /* ConfirmPasswordViewController.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,6 +137,27 @@
 		18EDDEFF263828FE00826E46 /* HomeTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBarViewController.swift; sourceTree = "<group>"; };
 		18EDDF022638291900826E46 /* HomeTabExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabExtension.swift; sourceTree = "<group>"; };
 		19463BF0A94E14821478CFEF /* Pods-The Key Discount.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Key Discount.debug.xcconfig"; path = "Target Support Files/Pods-The Key Discount/Pods-The Key Discount.debug.xcconfig"; sourceTree = "<group>"; };
+		8516F448263EBCD4002DAF3E /* SignupScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenRouter.swift; sourceTree = "<group>"; };
+		8516F44C263EBD6A002DAF3E /* SignupProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupProtocols.swift; sourceTree = "<group>"; };
+		8516F44F263EBD85002DAF3E /* SignupPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupPresenter.swift; sourceTree = "<group>"; };
+		8516F46D263ED91E002DAF3E /* SignUpScreenEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenEndpoint.swift; sourceTree = "<group>"; };
+		8516F471263ED940002DAF3E /* SignUpScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpScreenInteractor.swift; sourceTree = "<group>"; };
+		8516F475263ED98B002DAF3E /* SignupModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupModel.swift; sourceTree = "<group>"; };
+		8516F485263EE466002DAF3E /* ForgetPasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ForgetPasswordViewController.storyboard; sourceTree = "<group>"; };
+		8516F488263EE4D2002DAF3E /* ForgetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewController.swift; sourceTree = "<group>"; };
+		8516F48B263EE50A002DAF3E /* ForgetPasswordViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordViewExtension.swift; sourceTree = "<group>"; };
+		8545785C26398B6900094BB4 /* SignupViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SignupViewController.storyboard; sourceTree = "<group>"; };
+		85457860263991FB00094BB4 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		854578642639922D00094BB4 /* SignupViewConrollerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewConrollerExtension.swift; sourceTree = "<group>"; };
+		8545786B2639938700094BB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		8545786E2639938D00094BB4 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		854DF876263FF8A400712948 /* ForgetPasswordProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordProtocols.swift; sourceTree = "<group>"; };
+		854DF879263FF8C400712948 /* ForgetPasswordPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordPresenter.swift; sourceTree = "<group>"; };
+		854DF87D263FF9A600712948 /* ForgetPasswordScreenRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordScreenRouter.swift; sourceTree = "<group>"; };
+		854DF886263FFA5800712948 /* ForgetPasswordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordModel.swift; sourceTree = "<group>"; };
+		854DF889263FFA9700712948 /* ForgetPasswordScreenEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordScreenEndpoint.swift; sourceTree = "<group>"; };
+		854DF88C263FFABA00712948 /* ForgetPasswordScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPasswordScreenInteractor.swift; sourceTree = "<group>"; };
+		85DE82C526400E5000BAB2E3 /* ConfirmPasswordViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ConfirmPasswordViewController.storyboard; sourceTree = "<group>"; };
 		A4EACC3B8AB965E2638EE634 /* Pods-The Key Discount.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-The Key Discount.release.xcconfig"; path = "Target Support Files/Pods-The Key Discount/Pods-The Key Discount.release.xcconfig"; sourceTree = "<group>"; };
 		C23845811EDB46EE02E3043D /* Pods_The_Key_Discount.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_The_Key_Discount.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -209,6 +250,7 @@
 			isa = PBXGroup;
 			children = (
 				18EDDE342636F06600826E46 /* Info.plist */,
+				8545786C2639938700094BB4 /* Localizable.strings */,
 			);
 			path = Configuration;
 			sourceTree = "<group>";
@@ -250,8 +292,11 @@
 		18EDDE432636F35300826E46 /* userManagementModule */ = {
 			isa = PBXGroup;
 			children = (
+				85DE82BD26400DD000BAB2E3 /* Confirm Password */,
+				8516F480263EE3C3002DAF3E /* Forget Password */,
 				18EDDE912636FB0500826E46 /* SplashScreen */,
 				18EDDE442636F37000826E46 /* Login */,
+				8545785526398A5B00094BB4 /* Sign up */,
 			);
 			path = userManagementModule;
 			sourceTree = "<group>";
@@ -352,8 +397,8 @@
 		18EDDE912636FB0500826E46 /* SplashScreen */ = {
 			isa = PBXGroup;
 			children = (
-				18EDDE962636FB4B00826E46 /* Presenter */,
 				18EDDE952636FB4400826E46 /* View */,
+				18EDDE962636FB4B00826E46 /* Presenter */,
 				18EDDE942636FB3D00826E46 /* Model */,
 				18EDDE932636FB3300826E46 /* Interactor */,
 				18EDDE922636FB2700826E46 /* Router */,
@@ -554,6 +599,214 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		8516F447263EBCA2002DAF3E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				8516F448263EBCD4002DAF3E /* SignupScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		8516F44B263EBD33002DAF3E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				8516F44C263EBD6A002DAF3E /* SignupProtocols.swift */,
+				8516F44F263EBD85002DAF3E /* SignupPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8516F46C263ED8D0002DAF3E /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				8516F46D263ED91E002DAF3E /* SignUpScreenEndpoint.swift */,
+				8516F471263ED940002DAF3E /* SignUpScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		8516F474263ED96A002DAF3E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8516F475263ED98B002DAF3E /* SignupModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8516F480263EE3C3002DAF3E /* Forget Password */ = {
+			isa = PBXGroup;
+			children = (
+				8516F481263EE3DF002DAF3E /* View */,
+				8516F482263EE3F6002DAF3E /* Presenter */,
+				854DF875263FF84E00712948 /* Model */,
+				854DF874263FF83F00712948 /* Interactor */,
+				854DF873263FF82E00712948 /* Router */,
+			);
+			path = "Forget Password";
+			sourceTree = "<group>";
+		};
+		8516F481263EE3DF002DAF3E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8516F484263EE419002DAF3E /* Storyboard */,
+				8516F483263EE40C002DAF3E /* Controoller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8516F482263EE3F6002DAF3E /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				854DF876263FF8A400712948 /* ForgetPasswordProtocols.swift */,
+				854DF879263FF8C400712948 /* ForgetPasswordPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		8516F483263EE40C002DAF3E /* Controoller */ = {
+			isa = PBXGroup;
+			children = (
+				8516F488263EE4D2002DAF3E /* ForgetPasswordViewController.swift */,
+				8516F48B263EE50A002DAF3E /* ForgetPasswordViewExtension.swift */,
+			);
+			path = Controoller;
+			sourceTree = "<group>";
+		};
+		8516F484263EE419002DAF3E /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8516F485263EE466002DAF3E /* ForgetPasswordViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8545785526398A5B00094BB4 /* Sign up */ = {
+			isa = PBXGroup;
+			children = (
+				8545785626398A9700094BB4 /* View */,
+				8516F44B263EBD33002DAF3E /* Presenter */,
+				8516F474263ED96A002DAF3E /* Model */,
+				8516F46C263ED8D0002DAF3E /* Interactor */,
+				8516F447263EBCA2002DAF3E /* Router */,
+			);
+			path = "Sign up";
+			sourceTree = "<group>";
+		};
+		8545785626398A9700094BB4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8545785726398AA400094BB4 /* Storyboard */,
+				8545785F263991C200094BB4 /* Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8545785726398AA400094BB4 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8545785C26398B6900094BB4 /* SignupViewController.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		8545785F263991C200094BB4 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				85457860263991FB00094BB4 /* SignupViewController.swift */,
+				854578642639922D00094BB4 /* SignupViewConrollerExtension.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		854DF873263FF82E00712948 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				854DF87D263FF9A600712948 /* ForgetPasswordScreenRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		854DF874263FF83F00712948 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				854DF889263FFA9700712948 /* ForgetPasswordScreenEndpoint.swift */,
+				854DF88C263FFABA00712948 /* ForgetPasswordScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		854DF875263FF84E00712948 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				854DF886263FFA5800712948 /* ForgetPasswordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85DE82BD26400DD000BAB2E3 /* Confirm Password */ = {
+			isa = PBXGroup;
+			children = (
+				85DE82BE26400DE100BAB2E3 /* View */,
+				85DE82BF26400DE800BAB2E3 /* Presenter */,
+				85DE82C026400DF000BAB2E3 /* Model */,
+				85DE82C126400DFC00BAB2E3 /* Interactor */,
+				85DE82C226400E0600BAB2E3 /* Router */,
+			);
+			path = "Confirm Password";
+			sourceTree = "<group>";
+		};
+		85DE82BE26400DE100BAB2E3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85DE82C326400E1900BAB2E3 /* Storyboerd */,
+				85DE82C426400E2300BAB2E3 /* Controllers */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		85DE82BF26400DE800BAB2E3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		85DE82C026400DF000BAB2E3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		85DE82C126400DFC00BAB2E3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		85DE82C226400E0600BAB2E3 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		85DE82C326400E1900BAB2E3 /* Storyboerd */ = {
+			isa = PBXGroup;
+			children = (
+				85DE82C526400E5000BAB2E3 /* ConfirmPasswordViewController.storyboard */,
+			);
+			path = Storyboerd;
+			sourceTree = "<group>";
+		};
+		85DE82C426400E2300BAB2E3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		A998B769F6BFD618D948EACA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -625,8 +878,12 @@
 			files = (
 				18EDDE4D2636F42200826E46 /* LoginViewController.storyboard in Resources */,
 				18EDDEFD263828EE00826E46 /* HomeTabBar.storyboard in Resources */,
+				8516F486263EE466002DAF3E /* ForgetPasswordViewController.storyboard in Resources */,
+				8545785D26398B6900094BB4 /* SignupViewController.storyboard in Resources */,
 				18EDDEDD263827EF00826E46 /* HomeView.storyboard in Resources */,
 				18EDDE7E2636F70D00826E46 /* alertWithOneButton.xib in Resources */,
+				8545786A2639938700094BB4 /* Localizable.strings in Resources */,
+				85DE82C626400E5000BAB2E3 /* ConfirmPasswordViewController.storyboard in Resources */,
 				18EDDE332636F06600826E46 /* LaunchScreen.storyboard in Resources */,
 				18EDDE8F2636F8F300826E46 /* alertWithTwoButtons.xib in Resources */,
 				18EDDE302636F06600826E46 /* Assets.xcassets in Resources */,
@@ -685,13 +942,18 @@
 			files = (
 				184EEF19263847A400C7BAE5 /* uiviewExtension.swift in Sources */,
 				18EDDEC126380BEA00826E46 /* ButtonExtension.swift in Sources */,
+				8516F476263ED98B002DAF3E /* SignupModel.swift in Sources */,
+				85457861263991FB00094BB4 /* SignupViewController.swift in Sources */,
 				18EDDF032638291900826E46 /* HomeTabExtension.swift in Sources */,
+				8516F449263EBCD4002DAF3E /* SignupScreenRouter.swift in Sources */,
 				184EEF1626383F5500C7BAE5 /* tabBarPresenter.swift in Sources */,
 				18EDDE5C2636F48200826E46 /* LoginEndpoint.swift in Sources */,
 				18EDDEE0263827FD00826E46 /* HomeViewController.swift in Sources */,
 				18EDDE562636F46400826E46 /* LoginPresenter.swift in Sources */,
 				18EDDE8E2636F8F300826E46 /* alertWithTwoButtons.swift in Sources */,
+				854DF887263FFA5800712948 /* ForgetPasswordModel.swift in Sources */,
 				18EDDEAB2636FBAC00826E46 /* SplashScreenEndpoint.swift in Sources */,
+				854DF87E263FF9A600712948 /* ForgetPasswordScreenRouter.swift in Sources */,
 				18EDDEF22638285500826E46 /* HomeRouter.swift in Sources */,
 				18EDDE592636F47000826E46 /* LoginModel.swift in Sources */,
 				18EDDE502636F43F00826E46 /* LoginViewController.swift in Sources */,
@@ -699,28 +961,39 @@
 				18EDDF00263828FE00826E46 /* HomeTabBarViewController.swift in Sources */,
 				18EDDE532636F45100826E46 /* LoginProtocols.swift in Sources */,
 				18EDDE7D2636F70D00826E46 /* alertWithOneButton.swift in Sources */,
+				854578652639922D00094BB4 /* SignupViewConrollerExtension.swift in Sources */,
+				8516F48C263EE50A002DAF3E /* ForgetPasswordViewExtension.swift in Sources */,
 				18EDDE742636F5EE00826E46 /* BaseViewController.swift in Sources */,
 				18EDDEE92638282E00826E46 /* HomePresenter.swift in Sources */,
+				854DF88D263FFABA00712948 /* ForgetPasswordScreenInteractor.swift in Sources */,
+				8516F44D263EBD6A002DAF3E /* SignupProtocols.swift in Sources */,
 				18EDDEC826380C8700826E46 /* Constant.swift in Sources */,
 				18EDDEEC2638283E00826E46 /* HomeInteractor.swift in Sources */,
 				18EDDE6D2636F5A700826E46 /* BasesProtocols.swift in Sources */,
 				18EDDE792636F69400826E46 /* ViewControllerExtension.swift in Sources */,
 				18EDDEBE26380AAB00826E46 /* StringExtension.swift in Sources */,
 				18EDDEBB26380A7B00826E46 /* LabelExtension.swift in Sources */,
+				854DF88A263FFA9700712948 /* ForgetPasswordScreenEndpoint.swift in Sources */,
+				8516F46E263ED91E002DAF3E /* SignUpScreenEndpoint.swift in Sources */,
 				18EDDE272636F06200826E46 /* AppDelegate.swift in Sources */,
 				18EDDE712636F5C700826E46 /* BasePresenter.swift in Sources */,
 				18EDDE292636F06200826E46 /* SceneDelegate.swift in Sources */,
 				18EDDEE32638280C00826E46 /* HomeViewExtension.swift in Sources */,
+				8516F450263EBD85002DAF3E /* SignupPresenter.swift in Sources */,
 				18EDDEA82636FBA100826E46 /* SplashScreenModel.swift in Sources */,
 				184EEF1326383F4B00C7BAE5 /* tabBarProtocols.swift in Sources */,
 				18EDDEEF2638284A00826E46 /* HomeEndpoint.swift in Sources */,
 				18EDDE982636FB5E00826E46 /* SplashScreenProtocols.swift in Sources */,
+				8516F472263ED940002DAF3E /* SignUpScreenInteractor.swift in Sources */,
 				18EDDEE62638282200826E46 /* HomeProtocol.swift in Sources */,
 				18EDDEC526380C3800826E46 /* UiImageExtension.swift in Sources */,
 				18EDDE652636F4C500826E46 /* LoginViewExtension.swift in Sources */,
 				18EDDE622636F49F00826E46 /* LoginRouter.swift in Sources */,
 				18EDDEB826380A4400826E46 /* TextFiledExxtension.swift in Sources */,
+				854DF87A263FF8C400712948 /* ForgetPasswordPresenter.swift in Sources */,
 				18EDDE9C2636FB6900826E46 /* SplashScreenPresenter.swift in Sources */,
+				854DF877263FF8A400712948 /* ForgetPasswordProtocols.swift in Sources */,
+				8516F489263EE4D2002DAF3E /* ForgetPasswordViewController.swift in Sources */,
 				18EDDEA12636FB8500826E46 /* SplashScreenViewController.swift in Sources */,
 				18EDDE5F2636F49100826E46 /* LoginInteractor.swift in Sources */,
 				18EDDEAE2636FBBE00826E46 /* SplashScreenInteractor.swift in Sources */,
@@ -739,6 +1012,15 @@
 				18EDDEB52638096B00826E46 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8545786C2639938700094BB4 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8545786B2639938700094BB4 /* en */,
+				8545786E2639938D00094BB4 /* ar */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
